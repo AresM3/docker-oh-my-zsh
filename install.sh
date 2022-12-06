@@ -1,6 +1,6 @@
 #!/bin/bash
 sudo apt install zsh git curl
-cd ~ || exit
+cd ~
 sh -c "$(wget -O- https://github.com/deluan/zsh-in-docker/releases/download/v1.1.2/zsh-in-docker.sh)"
 wget -O .zshrc https://raw.githubusercontent.com/AresM3/docker-oh-my-zsh/master/.zshrc
 wget -O .bashrc https://raw.githubusercontent.com/AresM3/docker-oh-my-zsh/master/.bashrc
